@@ -731,7 +731,7 @@ img {
   border-radius: 4px;
 }
 
-.modal-checkbox:checked + modal-span {
+.input:checked + modal-span {
   background-color: var(--hover-links);
   border: none;
   fill: var(--cloud);
