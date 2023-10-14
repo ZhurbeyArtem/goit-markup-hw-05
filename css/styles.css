@@ -550,7 +550,6 @@ img {
 .modal {
   background-color: var(--navy-blue-modal);
   position: fixed;
-  padding: 72px 24px 24px;
   top: 0;
   left: 0;
   width: 100%;
@@ -561,7 +560,6 @@ img {
 
 .modal-container {
   padding: 72px 24px 24px;
-
   width: 408px;
   min-height: 584px;
   background-color: var(--diary);
@@ -612,7 +610,6 @@ img {
 }
 
 .modal-form {
-  padding: 72px 24px 24px;
   display: flex;
   flex-direction: column;
 }
@@ -734,7 +731,7 @@ img {
   border-radius: 4px;
 }
 
-.modal-checkbox:checked+modal-span {
+.modal-checkbox:checked + modal-span {
   background-color: var(--hover-links);
   border: none;
   fill: var(--cloud);
