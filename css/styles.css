@@ -746,11 +746,10 @@ img {
   color: var(--white);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   cursor: pointer;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
