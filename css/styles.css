@@ -722,14 +722,7 @@ img {
   line-height: 16px;
 }
 
-/* .modal-checkbox {
-  width: 16px;
-  height: 16px;
-  margin-right: 8px;
-  border-radius: 4px;
-} */
-
-input[type="checkbox"]:checked + label > .modal-span{
+.modal-checkbox:checked + .modal-label > .modal-span{
   background-color: var(--hover-links);
   border: none;
   fill: var(--cloud); 
