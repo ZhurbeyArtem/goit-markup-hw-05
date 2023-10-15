@@ -641,7 +641,6 @@ img {
 .modal-label {
   line-height: 1.17;
   display: block;
-  flex-direction: column;
   margin-bottom: 4px;
   position: relative;
   color: var(--light-slate)
@@ -652,8 +651,6 @@ img {
 }
 
 .modal-input {
-  margin-bottom: 8px;
-
   width: 100%;
   height: 40px;
   border: 1px solid var(--navy-blue-modal);
@@ -704,7 +701,7 @@ img {
 
 .modal-checkbox-label {
   color: var(--light-slate);
-  margin: 16px 0 24px;
+  margin: 0;
 }
 
 .modal-span {
@@ -717,6 +714,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  position: relative;
 }
 
 .modal-link {
@@ -731,10 +729,10 @@ img {
   border-radius: 4px;
 } */
 
-.modal-checkbox:checked + .modal-span {
+input[type="checkbox"]:checked + label > .modal-span{
   background-color: var(--hover-links);
   border: none;
-  fill: var(--cloud);
+  fill: var(--cloud); 
 }
 
 .modal-button {
