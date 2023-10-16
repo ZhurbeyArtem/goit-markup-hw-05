@@ -135,9 +135,13 @@ img {
   align-items: center;
 }
 
+.menu-nav{ 
+  align-items:center;
+}
+
 .logo-header {
   color: var(--iris);
-  margin: 25.5px 76px 25.5px 0;
+  margin-right: 76px;
 }
 
 .logo-text {
@@ -149,6 +153,7 @@ img {
 }
 
 .menu-list-link {
+  display: block;
   padding: 24px 0;
   position: relative;
   color: var(--slate);
@@ -158,7 +163,6 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -188,7 +192,7 @@ img {
 }
 
 .contacts {
-  margin-left: 332px;
+  margin-left: auto;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.32px;
@@ -412,7 +416,6 @@ img {
 }
 
 .customers-icon {
-  margin: 16px 32px;
   display: block;
   fill: currentColor;
 }
@@ -867,8 +870,4 @@ img {
   border-top: none;
   z-index: 3;
   overflow: hidden;
-}
-
-.cards-item-title {
-  margin-bottom: 8px;
 }
